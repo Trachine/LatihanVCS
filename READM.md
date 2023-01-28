@@ -81,10 +81,12 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 
 ![new file 2](https://user-images.githubusercontent.com/123666514/215283289-6767fd52-6efc-484f-ae37-8a020aebea4e.PNG)
 
-<h3>Buat Commit</h3>
+<h3>8. Buat Commit</h3>
 <p>Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah berikut untuk membuat Commit:</p>
 <p>$ git commit -m "komentar_commit"</p>
 
 ![commit](https://user-images.githubusercontent.com/123666514/215283538-1a28a343-533f-43c1-8642-70924ed9b64c.PNG)
 
 <h3>9. Remote repository Github</h3>
+<p>Remote repository berfungsi untuk mengupload file yang telah Anda buat sebelumnya di local disk. Masukkan perintah berikut ini untuk melakukan remote repository:</p>
+<p>$ git remote add origin [url_repository]</p>
