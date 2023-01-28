@@ -44,11 +44,33 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 <h3>4. Buat Folder pada Local Disk Computer</h3>
 <p>Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat.</p>
 
+![new folder](https://user-images.githubusercontent.com/123666514/215281654-16940211-3e34-4463-b551-562ba4182a64.PNG)
+
+<p>Untuk pengguna linux kalian dapat menjalanakan perintah:</p>
+<p>$ mkdir "nama_folder"</p>
+
+![New folder linux](https://user-images.githubusercontent.com/123666514/215281896-4145f8dd-3148-478a-855e-117b85118105.PNG)
+
 <h3>5. Buka Folder Menggunakan Git Bash</h3>
-<p>Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu akan muncul seperti di bawah ini.</p>
+<p>Selanjutnya kalian harus membuka folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu akan muncul seperti di bawah ini.</p>
+
+![git bash](https://user-images.githubusercontent.com/123666514/215282103-1cde7285-678e-4cd3-b5c2-92581f278b07.PNG)
+
+<p> Setelah itu akan muncul seperti di bawah ini.</p>
+
+![cmd](https://user-images.githubusercontent.com/123666514/215282197-dc57872d-b6dd-4ec3-8a58-d7869e79f5d3.PNG)
+
+<p>Untuk pengguna linux kalian cukup membuka folder dengan perintah.</p>
+<p>$ cd "nama_folder"</p>
+
+![Terminal](https://user-images.githubusercontent.com/123666514/215282410-87209e37-ae96-4f16-aac3-c52b9154f711.PNG)
 
 <h3>6. Ubah Folder Menjadi Repository</h3>
 <p>Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:</p>
 <p>$ git init</p>
 
+![git init](https://user-images.githubusercontent.com/123666514/215282505-0d4382b0-9139-4e58-abeb-70817eb20821.PNG)
+
 <h3>7. Tambah File ke Repository</h3>
+<p>Untuk bisa menambahkan file ke repository GitHub, kita buat file di folder yang sudah dibuat (LatihanVCS). Contohnya, di sini saya membuat file README.md
+<p>$ git add README.md</p>
