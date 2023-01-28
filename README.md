@@ -21,14 +21,17 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 
 <p>Setelah Anda login, akan muncul tampilan dashboard dari GitHub seperti  gambar di bawah ini.</p>
 
-![dasboard](https://user-images.githubusercontent.com/123666514/215240716-37d5c5cf-23bf-4930-9844-677617201262.PNG)
+![dasboard 1](https://user-images.githubusercontent.com/123666514/215257558-99514e0c-29c1-4e3c-ac4a-75eb766d3cda.PNG)
+
 
 <h3>3. Buat Repository</h3>
 <p>Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombol New pada menu Repositories untuk membuat repository baru.</p>
 
-
+![dasboard](https://user-images.githubusercontent.com/123666514/215257511-cf0de684-ca15-4ed6-8ff8-36bf5ed88f8e.PNG)
 
 <p>Kemudian Anda akan diarahkan pada halaman untuk membuat repository baru seperti gambar di bawah ini.</p>
+
+![create](https://user-images.githubusercontent.com/123666514/215257569-0b6b57fd-e891-4b33-b563-cbcb4498f847.PNG)
 
 <p>Anda perlu mengisi detail informasi berikut:</p>
 
