@@ -90,3 +90,9 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 <h3>9. Remote repository Github</h3>
 <p>Remote repository berfungsi untuk mengupload file yang telah Anda buat sebelumnya di local disk. Masukkan perintah berikut ini untuk melakukan remote repository:</p>
 <p>$ git remote add origin [url_repository]</p>
+
+![remote](https://user-images.githubusercontent.com/123666514/215284025-9cc502d8-b3cd-4f96-99d3-2af78a496fb8.PNG)
+
+<h3>10. Push ke Github</h3>
+<p>Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil akhir dari langkah-langkah di atas. Masukkan perintah berikut untuk melakukan push ke GitHub:</p>
+<p>$ git push -u origin master</p>
