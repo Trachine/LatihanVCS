@@ -46,4 +46,6 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 
 <h3>6. Ubah Folder Menjadi Repository</h3>
 <p>Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:</p>
-$ git init
+<p>$ git init</p>
+
+<h3>7. Tambah File ke Repository</h3>
