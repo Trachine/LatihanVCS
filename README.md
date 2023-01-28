@@ -24,4 +24,26 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 ![dasboard](https://user-images.githubusercontent.com/123666514/215240716-37d5c5cf-23bf-4930-9844-677617201262.PNG)
 
 <h3>3. Buat Repository</h3>
-<p>
+<p>Setelah berhasil login ke GitHub, Anda bisa mulai membuat repository. Klik tombol New pada menu Repositories untuk membuat repository baru.</p>
+
+
+
+<p>Kemudian Anda akan diarahkan pada halaman untuk membuat repository baru seperti gambar di bawah ini.</p>
+
+<p>Anda perlu mengisi detail informasi berikut:</p>
+
+  <b>Nama Repository</b> : digunakan untuk identitas repository yang dibuat.<br>
+  <b>Deskripsi Repository</b> : berfungsi untuk deskripsi dari repository yang dibuat.<br>
+  <b>Jenis Repository</b> : jenis repository  dibagi menjadi Public dan Private. Ketika Anda mengatur repository menjadi Public, orang lain dapat melihat repository yang Anda buat. Sebaliknya, jika Anda mengaturnya sebagai Private, repository tersebut hanya bisa diakses oleh Anda.
+
+<p>Setelah mengisi detail informasi di atas, klik Create Repository.</p>
+
+<h3>4. Buat Folder pada Local Disk Computer</h3>
+<p>Selanjutnya, Anda perlu membuat folder pada local disk komputer Anda. Fungsinya adalah untuk menyimpan update file dari repository GitHub yang telah Anda buat.</p>
+
+<h3>5. Buka Folder Menggunakan Git Bash</h3>
+<p>Setelah berhasil membuat folder pada local disk komputer Anda,  buka folder tersebut dengan cara klik kanan lalu pilih Git Bash Here. Setelah itu akan muncul seperti di bawah ini.</p>
+
+<h3>6. Ubah Folder Menjadi Repository</h3>
+<p>Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:</p>
+$ git init
