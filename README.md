@@ -100,6 +100,6 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 ![push](https://user-images.githubusercontent.com/123666514/215287411-4ff2e38e-15f4-46a0-a8c3-ca750c09dc08.PNG)
 
 <h3>11. Check File</h3>
-<p>Setelah itu, cek repository yang telah Anda buat. Anda akan mendapati file-file yang telah ditambahkan sebelumnya.</p>
+<p>Setelah itu, cek repository yang telah Anda buat. Anda akan mendapati file yang telah ditambahkan sebelumnya.</p>
 
 ![last](https://user-images.githubusercontent.com/123666514/215287559-25028253-ef4c-4d01-ace0-4263985401f5.PNG)
