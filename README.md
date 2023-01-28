@@ -15,3 +15,13 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 <p>$ git config --list</p>
 
 ![1 login git](https://user-images.githubusercontent.com/123666514/215147495-68789af4-bc45-4aa6-adb9-0b1535868eae.png)
+
+<h3>2. Login Github</h3>
+<p>Langkah kedua dalam menggunakan Git adalah Anda harus login ke dalam website <a href="https://github.com">GitHub</a>. Github dan Git memiliki hubungan khusus, yaitu Git yang berperan sebagai version control system dan Github menjadi hosting atau sebagai penyimpan kode pemrograman.</p>
+
+<p>Setelah Anda login, akan muncul tampilan dashboard dari GitHub seperti  gambar di bawah ini.</p>
+
+![dasboard](https://user-images.githubusercontent.com/123666514/215240716-37d5c5cf-23bf-4930-9844-677617201262.PNG)
+
+<h3>3. Buat Repository</h3>
+<p>
