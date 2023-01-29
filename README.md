@@ -7,12 +7,22 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 <h3>1. Login Git</h3>
 <p>Untuk login ke Git, Anda bisa menggunakan akun GitHub, Gitlab, atau Bitbucket. Jika belum memiliki akun dari ketiga platform tersebut, Anda bisa mendaftarkan diri terlebih dahulu. Selanjutnya Anda bisa melakukan login awal pada Git  menggunakan Command Prompt  (Windows) atau Command Line (Linux).</p>
 
-<p>masukkan username GitHub Anda menggunakan perintah di bawah ini. Lalu tekan ENTER jika sudah benar.</p>
-> git config --global user.name "UsernameAnda"
-<p>Kemudian masukkan email yang terdaftar di GitHub Anda menggunakan perintah di bawah  ini. Lalu tekan ENTER jika sudah benar.</p>
-<p>$ git config --global user.email IsiDenganEmailAnda@gmail.com</p>
-<p>Selanjutnya untuk memastikan proses login Anda berhasil, masukkan perintah berikut.</p>
-<p>$ git config --list</p>
+masukkan username GitHub Anda menggunakan perintah di bawah ini. Lalu tekan ENTER jika sudah benar
+
+```bash
+$ git config --global user.name "UsernameAnda"
+```
+
+Kemudian masukkan email yang terdaftar di GitHub Anda menggunakan perintah di bawah  ini. Lalu tekan ENTER jika sudah benar.
+
+```bash
+$ git config --global user.email IsiDenganEmailAnda@gmail.com
+```
+
+Selanjutnya untuk memastikan proses login Anda berhasil, masukkan perintah berikut.
+```bash
+$ git config --list
+```
 
 ![1 login git](https://user-images.githubusercontent.com/123666514/215147495-68789af4-bc45-4aa6-adb9-0b1535868eae.png)
 
@@ -46,9 +56,11 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 
 ![new folder](https://user-images.githubusercontent.com/123666514/215281654-16940211-3e34-4463-b551-562ba4182a64.PNG)
 
-<p>Untuk pengguna linux kalian dapat menjalanakan perintah:</p>
-<p>$ mkdir "nama_folder"</p>
+Untuk pengguna linux kalian dapat menjalanakan perintah:
 
+```bash
+$ mkdir "nama_folder"
+```
 ![New folder linux](https://user-images.githubusercontent.com/123666514/215281896-4145f8dd-3148-478a-855e-117b85118105.PNG)
 
 <h3>5. Buka Folder Menggunakan Git Bash</h3>
@@ -60,42 +72,62 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 
 ![cmd](https://user-images.githubusercontent.com/123666514/215282197-dc57872d-b6dd-4ec3-8a58-d7869e79f5d3.PNG)
 
-<p>Untuk pengguna linux kalian cukup membuka folder dengan perintah.</p>
-<p>$ cd "nama_folder"</p>
+Untuk pengguna linux kalian cukup membuka folder dengan perintah.
+
+```bash
+$ cd "nama_folder"
+```
 
 ![Terminal](https://user-images.githubusercontent.com/123666514/215282410-87209e37-ae96-4f16-aac3-c52b9154f711.PNG)
 
 <h3>6. Ubah Folder Menjadi Repository</h3>
-<p>Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:</p>
-<p>$ git init</p>
+Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut:
+  
+```bash
+$ git init
+```bash
 
 ![git init](https://user-images.githubusercontent.com/123666514/215282505-0d4382b0-9139-4e58-abeb-70817eb20821.PNG)
 
 <h3>7. Tambah File ke Repository</h3>
-<p>Untuk bisa menambahkan file ke repository GitHub, kita buat file di folder yang sudah dibuat (LatihanVCS). Contohnya, di sini saya membuat file README.md</p>
-<p>$ echo "text_yang_diinput_pada_file" >> nama_file</p>
+Untuk bisa menambahkan file ke repository GitHub, kita buat file di folder yang sudah dibuat (LatihanVCS). Contohnya, di sini saya membuat file README.md
+
+```bash
+$ echo "text_yang_diinput_pada_file" >> nama_file
+```
 
 ![new file](https://user-images.githubusercontent.com/123666514/215283286-0f70affc-b72c-4219-b48a-349ce0b458ae.PNG)
 
-<p>$ git add nama_file</p>
+```bash
+$ git add nama_file```
+
 
 ![new file 2](https://user-images.githubusercontent.com/123666514/215283289-6767fd52-6efc-484f-ae37-8a020aebea4e.PNG)
 
 <h3>8. Buat Commit</h3>
-<p>Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah berikut untuk membuat Commit:</p>
-<p>$ git commit -m "komentar_commit"</p>
+Selanjutnya, Anda perlu membuat Commit. Commit berfungsi untuk menambahkan update file serta komentar. Jadi setiap kontributor bisa memberikan konfirmasi update file di proyek yang sedang dikerjakan. Masukkan perintah berikut untuk membuat Commit:
+
+```bash
+$ git commit -m "komentar_commit"
+```
 
 ![commit](https://user-images.githubusercontent.com/123666514/215283538-1a28a343-533f-43c1-8642-70924ed9b64c.PNG)
 
 <h3>9. Remote repository Github</h3>
-<p>Remote repository berfungsi untuk mengupload file yang telah Anda buat sebelumnya di local disk. Masukkan perintah berikut ini untuk melakukan remote repository:</p>
-<p>$ git remote add origin [url_repository]</p>
+Remote repository berfungsi untuk mengupload file yang telah Anda buat sebelumnya di local disk. Masukkan perintah berikut ini untuk melakukan remote repository:
+
+```bash
+$ git remote add origin [url_repository]
+```
 
 ![remote](https://user-images.githubusercontent.com/123666514/215284025-9cc502d8-b3cd-4f96-99d3-2af78a496fb8.PNG)
 
 <h3>10. Push ke Github</h3>
-<p>Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil akhir dari langkah-langkah di atas. Masukkan perintah berikut untuk melakukan push ke GitHub:</p>
-<p>$ git push -u origin master</p>
+Langkah terakhir adalah push ke GitHub Push ini berfungsi untuk mengupload hasil akhir dari langkah-langkah di atas. Masukkan perintah berikut untuk melakukan push ke GitHub:
+
+```bash
+$ git push -u origin master
+ ```
 
 ![push](https://user-images.githubusercontent.com/123666514/215287411-4ff2e38e-15f4-46a0-a8c3-ca750c09dc08.PNG)
 
