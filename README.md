@@ -8,7 +8,7 @@ Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat
 <p>Untuk login ke Git, Anda bisa menggunakan akun GitHub, Gitlab, atau Bitbucket. Jika belum memiliki akun dari ketiga platform tersebut, Anda bisa mendaftarkan diri terlebih dahulu. Selanjutnya Anda bisa melakukan login awal pada Git  menggunakan Command Prompt  (Windows) atau Command Line (Linux).</p>
 
 <p>masukkan username GitHub Anda menggunakan perintah di bawah ini. Lalu tekan ENTER jika sudah benar.</p>
-<p>$ git config --global user.name "UsernameAnda"</p>
+> git config --global user.name "UsernameAnda"
 <p>Kemudian masukkan email yang terdaftar di GitHub Anda menggunakan perintah di bawah  ini. Lalu tekan ENTER jika sudah benar.</p>
 <p>$ git config --global user.email IsiDenganEmailAnda@gmail.com</p>
 <p>Selanjutnya untuk memastikan proses login Anda berhasil, masukkan perintah berikut.</p>
