@@ -85,7 +85,7 @@ Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah beriku
   
 ```bash
 $ git init
-```bash
+```
 
 ![git init](https://user-images.githubusercontent.com/123666514/215282505-0d4382b0-9139-4e58-abeb-70817eb20821.PNG)
 
