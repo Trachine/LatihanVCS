@@ -99,7 +99,8 @@ $ echo "text_yang_diinput_pada_file" >> nama_file
 ![new file](https://user-images.githubusercontent.com/123666514/215283286-0f70affc-b72c-4219-b48a-349ce0b458ae.PNG)
 
 ```bash
-$ git add nama_file```
+$ git add nama_file
+```
 
 
 ![new file 2](https://user-images.githubusercontent.com/123666514/215283289-6767fd52-6efc-484f-ae37-8a020aebea4e.PNG)
